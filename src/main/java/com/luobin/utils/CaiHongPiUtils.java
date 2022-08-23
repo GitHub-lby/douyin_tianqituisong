@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class CaiHongPiUtils {
     public static String getCaiHongPi() {
-        String key = "这里改";
+        String key = "e93b5700003fea1d947a6b86823efcf5";
         String httpUrl = "http://api.tianapi.com/caihongpi/index?key="+key;
         BufferedReader reader = null;
         String result = null;
