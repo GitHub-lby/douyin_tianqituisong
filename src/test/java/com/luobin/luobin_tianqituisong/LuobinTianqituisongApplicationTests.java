@@ -1,5 +1,6 @@
 package com.luobin.luobin_tianqituisong;
 
+import com.luobin.controller.Pusher;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,4 +11,8 @@ class LuobinTianqituisongApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    public void goodMorning(){
+        Pusher.push();
+    }
 }

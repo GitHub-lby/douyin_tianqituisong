@@ -8,11 +8,11 @@ import java.util.Calendar;
 public class JiNianRiUtils {
 
     public static int getLianAi(){
-        return calculationLianAi("恋爱日期 需修改 格式为例 2000-01-26");
+        return calculationLianAi("这里改  格式2003-03-03");
     }
     public static int getBirthday_Jo(){
         try {
-            return calculationBirthday("生日 需修改 格式为例 2000-01-26");
+            return calculationBirthday("这里改  格式2003-03-03");
         } catch (ParseException e) {
             e.printStackTrace();
         }

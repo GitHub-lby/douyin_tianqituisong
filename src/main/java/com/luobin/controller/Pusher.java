@@ -15,8 +15,8 @@ public class Pusher {
     public static void main(String[] args) {
         push();
     }
-    private static String appId = "微信测试平台appid 需修改";
-    private static String secret = "微信测试平台secret 需修改";
+    private static String appId = "这里改";
+    private static String secret = "这里改";
 
 
 
@@ -29,8 +29,8 @@ public class Pusher {
         wxMpService.setWxMpConfigStorage(wxStorage);
         // 推送消息
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
-                .toUser("用户微信id")
-                .templateId("消息模板id")
+                .toUser("这里改")
+                .templateId("这里改")
                 .build();
         // 配置你的信息
         Weather weather = WeatherUtils.getWeather();

@@ -14,9 +14,9 @@ public class WeatherUtils {
     public static Weather getWeather(){
         RestTemplate restTemplate = new RestTemplate();
         Map<String,String> map = new HashMap<>();
-        map.put("district_id","所在地行政代码 市 需修改");
+        map.put("district_id","360600");
         map.put("data_type","all");
-        map.put("ak","自己应用的ak 需修改");
+        map.put("ak","这里改");
         String res = restTemplate.getForObject(
                 "https://api.map.baidu.com/weather/v1/?district_id={district_id}&data_type={data_type}&ak={ak}",
                 String.class,
